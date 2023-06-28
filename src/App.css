@@ -1,38 +1,78 @@
+:root {
+  --btn-color: #6ae8ec;
+  --btn-hover: #395ce7;
+  --btn-clear: #ff7373;
+  --btn-clear-hover: #ff0000;
+}
+
 .App {
-  text-align: center;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  padding: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin: 5px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* input[type='button'] {
+  cursor: pointer;
+} */
+
+.enter-job {
+  border: 1px solid #ccc;
+  width: 390px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.add-job {
+  border: none;
+  font-weight: 700;
+  float: right;
+  width: 70px;
+  background-color: var(--btn-color);
+  cursor: pointer;
+}
+
+.add-job:hover {
   color: white;
+  background-color: var(--btn-hover);
+  transition: .3s;
 }
 
-.App-link {
-  color: #61dafb;
+.job {
+  width: 100%;
+  background-color: #ccc;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  /* cursor: default; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  width: 100%;
+  overflow: auto;
+  margin-top: 30px;
+}
+
+.footer p {
+  float: left;
+}
+
+.clear-all {
+  background-color: var(--btn-clear);
+  float: right;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.clear-all:hover {
+  color: white;
+  background-color: var(--btn-clear-hover);
+  transition: .3s;
 }
