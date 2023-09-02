@@ -1,110 +1,110 @@
 :root {
-  --btn-color: #6ae8ec;
-  --btn-hover: blue;
-  --btn-clear: #ff7373;
-  --btn-clear-hover: red;
+    --btn-color: #6ae8ec;
+    --btn-hover: blue;
+    --btn-clear: #ff7373;
+    --btn-clear-hover: red;
 }
 
 .App {
-  width: 700px;
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 input {
-  padding: 15px;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  margin: 5px 0;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;
 }
 
 .enter-job {
-  border: 1px solid #ccc; 
-  width: 84%;
-  margin-bottom: 20px;
+    border: 1px solid #ccc;
+    width: 84%;
+    margin-bottom: 20px;
 }
 
 .add-job {
-  border: 1px solid aqua;
-  font-weight: 700;
-  float: right;
-  width: 70px;
-  background-color: aqua;
-  cursor: pointer;
+    border: 1px solid aqua;
+    font-weight: 700;
+    float: right;
+    width: 70px;
+    background-color: aqua;
+    cursor: pointer;
 }
 
 .add-job:hover {
-  border: 1px solid blue;
-  color: white;
-  background-color: blue;
-  transition: .3s;
+    border: 1px solid blue;
+    color: white;
+    background-color: blue;
+    transition: 0.3s;
 }
 
 .list-jobs {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .job {
-  width: 84%;
-  background-color: #ccc;
-  text-align: left;
-  font-size: 20px;
-  font-weight: 700;
-  /* cursor: default; */
+    width: 84%;
+    background-color: #ccc;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    /* cursor: default; */
 }
 
 .job-action {
-  font-weight: 700;
-  cursor: pointer;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .list-jobs .done-btn {
-  /* background-color: lime; */
-  /* font-size: 30px; */
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
+    /* background-color: lime; */
+    /* font-size: 30px; */
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
 }
 
 .list-jobs .done-btn:hover {
-  color: white;
-  background-color: green;
-  transition: .3s;
+    color: white;
+    background-color: green;
+    transition: 0.3s;
 }
 
 .list-jobs .delete-btn {
-  /* background-color: var(--btn-clear); */
-  background-color: pink;
+    /* background-color: var(--btn-clear); */
+    background-color: pink;
 }
 
 .list-jobs .delete-btn:hover {
-  color: white;
-  background-color: red;
-  transition: .3s;
+    color: white;
+    background-color: red;
+    transition: 0.3s;
 }
 
 .footer {
-  width: 100%;
-  overflow: auto;
-  margin-top: 30px;
+    width: 100%;
+    overflow: auto;
+    margin-top: 30px;
 }
 
 .footer p {
-  float: left;
+    float: left;
 }
 
 .clear-all {
-  background-color: yellow;
-  float: right;
-  font-weight: 700;
-  cursor: pointer;
+    background-color: yellow;
+    float: right;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .clear-all:hover {
-  color: white;
-  background-color: goldenrod;
-  transition: .3s;
+    color: white;
+    background-color: goldenrod;
+    transition: 0.3s;
 }
